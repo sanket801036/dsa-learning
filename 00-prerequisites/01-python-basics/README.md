@@ -21,6 +21,25 @@ Goal: never get stuck on syntax during a problem.
 - [ ] Input handling: `input()`, `map(int, input().split())`
 - [ ] Fast input for big cases: `sys.stdin.readline`
 
+## Files in this folder
+
+Run each one and read the comments. They are written to be read, not just executed.
+
+| File | Covers |
+|---|---|
+| `01_variables_and_types.py` | data types, casting, operators, swap |
+| `02_conditionals_and_loops.py` | if/elif, for, while, nested loops, patterns |
+| `03_functions.py` | arguments, return, mutable vs immutable, copy trap |
+| `04_lists.py` | list ops and their cost, slicing, comprehension, 2D grids |
+| `05_strings.py` | immutability, methods, ord/chr, common problems |
+| `06_input_output.py` | input(), fast stdin, formatted output |
+| `07_practice.py` | 13 problems with built-in tests |
+
+```bash
+python 01_variables_and_types.py
+python 07_practice.py            # should print 13 PASS lines
+```
+
 ## Practice ideas
 
 - Reverse a list without using `[::-1]`
